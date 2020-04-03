@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Corale.Colore.Wpf</name>
+    </assembly>
+    <members>
+        <member name="T:Corale.Colore.Wpf.Extensions">
+            <summary>
+            Extension methods for integrating Colore with WPF.
+            </summary>
+        </member>
+        <member name="M:Corale.Colore.Wpf.Extensions.ToColoreColor(System.Windows.Media.Color)">
+            <summary>
+            Converts a WPF <see cref="T:System.Windows.Media.Color" /> to a
+            Colore <see cref="T:Corale.Colore.Core.Color" />.
+            </summary>
+            <param name="source">The color to convert.</param>
+            <returns>
+            A <see cref="T:Corale.Colore.Core.Color" /> representing the
+            given <see cref="T:System.Windows.Media.Color" />.
+            </returns>
+        </member>
+        <member name="M:Corale.Colore.Wpf.Extensions.ToWpfColor(Corale.Colore.Core.Color)">
+            <summary>
+            Converts a Colore <see cref="T:Corale.Colore.Core.Color" /> to a
+            WPF <see cref="T:System.Windows.Media.Color" />
+            </summary>
+            <param name="source">The color to convert.</param>
+            <returns>
+            A <see cref="T:System.Windows.Media.Color" /> representing the
+            given <see cref="T:Corale.Colore.Core.Color" />.
+            </returns>
+        </member>
+    </members>
+</doc>
